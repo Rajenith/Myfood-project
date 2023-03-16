@@ -1,0 +1,63 @@
+#form2{
+    display: block;
+    justify-content: center;
+    width: 100%;
+    padding: 15%;
+    padding-top: 10%;
+    padding-left: 30%;
+    background-image: url("https://thumbs.dreamstime.com/z/salad-feta-cheese-walnuts-cherry-tomatoes-plate-rustic-style-top-view-free-space-your-text-salad-feta-164658166.jpg");
+}
+#form{
+    display: grid;
+    grid-template-rows: auto;   
+    justify-content: center;
+    width: 70%;
+    padding: 70px;
+    left: 30%;
+    text-align: center;
+    background-color: rgb(177, 177, 202);
+    border-radius: 30px;
+
+}
+#form h1{
+    font-weight: 700;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ #form input{
+    display: block;
+    width: 450px;
+    padding: 20px 25px;
+    border: none;
+    border-bottom: 2px solid rgb(145, 116, 116);
+    row-gap: 20px;
+    font-size: 22px;
+    color: white;
+    background: transparent;
+}
+#form p{
+    font-size: 2em;
+    color: blueviolet;
+    font-style: italic;
+} 
+#sbtn{
+   width: 200px;
+   padding: 15px 20px;
+   font-size: 19px;
+   border-radius: 20px;
+   background-color:  rgb(177, 177, 202);
+}
+#sbtn:hover{
+    background-color: wheat;
+}
+#sbtn:active{
+    background-color: rgb(63, 126, 163);
+}
+#btncart1{
+    width: 40%;
+    padding: 8px;
+    border: none;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: rgb(126, 190, 22);
+    font-weight: 500;
+}

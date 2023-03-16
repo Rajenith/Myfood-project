@@ -1,0 +1,46 @@
+.all-discrip{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-around;
+    padding: 10px;
+    padding-bottom: 5rem;
+    overflow: hidden;
+}
+.letters{
+    color: orange;
+    font-family: mv boli;
+    font-weight: 500;
+    font-size: 50px;
+}
+#customer{
+    width: auto;
+    height: 30rem;
+    border: 2px solid sienna;
+    padding: 10px;
+    box-shadow: 30px 40px 20x 20px gold;
+    border-radius: 40px;
+
+
+}
+#customer img{
+    width: 200px;
+    height: 200px;  
+    border: 2px solid gray;
+    border-radius: 50%;
+    transition: 3s;
+}
+#customer img:hover{
+    transform: scale(1.1);
+}
+#customer p{
+    align-items: start;
+    font: italic 1.2em "Fira Sans";
+    font-family:  Georgia, serif;
+    overflow: hidden;
+}
+#customer h3{
+    color: rgb(81, 110, 189);
+    font: italic 1.7rem "Fira Sans";;
+    font-weight: 500;
+}

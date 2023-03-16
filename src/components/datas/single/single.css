@@ -1,0 +1,151 @@
+#sing-img {
+   border: 2px solid red;
+   border-radius: 10px;
+}
+
+#singleimg {
+   width: 100%;
+   height: 400px;
+   border-radius: 15px;
+}
+
+#sing-name h1 {
+   display: flex;
+   color: rgb(209, 34, 3);
+   font-style: italic;
+}
+#sing-name h2 {
+   display: flex;
+   color: rgba(7, 0, 110, 0.575);
+   font-style: italic;
+}
+
+#sing-name p {
+   color: black;
+   font-size: 18px;
+}
+
+#sing-name h3 {
+   display: flex;
+   color: rgb(3, 195, 209);
+   font-style: italic;
+}
+
+#rate {
+   display: flex;
+   color: rgb(3, 17, 209);
+   font-style: italic;
+   font-weight: 400;
+}
+
+#rate-order {
+   display: grid;
+   grid-template-columns: 40% 30% 30%;
+}
+
+#rat-ing {
+   width: 50px;
+   height: 40px;
+   border: none;
+   background-color: rgb(255, 38, 0);
+   font-weight: 600;
+}
+
+#or-der {
+   width: 120px;
+   padding: 8px;
+   border: 2px solid rgba(226, 7, 7, 0.418);
+   border-top-right-radius: 30px;
+   border-bottom-left-radius: 30px;
+   font-size: 20px;
+   font-family: italic,bold;
+   font-weight: 800;
+   color: rgb(161, 10, 5);
+}
+
+#or-der:hover {
+   background-color: chocolate;
+}
+
+#or-der:active {
+   background-color: rgb(61, 219, 154);
+   
+}
+#si-add{
+   width: 120px;
+   padding: 7px;
+   border: 2px solid rgba(226, 7, 7, 0.404);
+   border-top-left-radius: 30px;
+   border-bottom-right-radius: 30px;
+   font-size: 19px;
+   font-family: italic,bold;
+   font-weight: 800;
+   color: rgb(161, 10, 5);
+}
+.food-img{
+   width: 25rem;
+   height: 20rem;
+   border: 0px solid gray;
+   border-radius: 10px; 
+   box-shadow: inset 5px 10px 10px 10px rgb(233, 197, 197);
+   
+}
+.food-img img{
+   width: 22rem;
+   height: 220px;
+   border-radius: 15px;
+   padding: 10px;
+   border: 0px solid gray;
+}
+#foood{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   gap: 40px;
+   
+}
+#pa-pri{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+}
+#pa-pri p{
+   font-size: 19px;
+   font-weight: 800;
+}
+
+
+#s1-img h1{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: rgb(255, 72, 0);
+   font-style: italic;
+   font-weight: 900;
+   position:absolute;
+   text-align: center;
+   left: 42%;
+   bottom: 2em;
+   width: auto;
+   height: auto;
+   background-color: gray;
+   opacity: 0.8;
+}
+#s1-img img{
+   width: 80rem;
+   height: 38em;
+   border: 2px solid greenyellow;
+   position: relative;
+   right: 0.1rem;
+   width: 80rem;
+   height: 38rem;
+   border: 2px solid gray;
+   background-color: white;
+}
+ #del{
+   position: absolute;
+   top: 10px;
+   right: 80px;
+   margin: 0px; 
+   border: none;
+   width: 30px;
+   height: 30px;
+} 

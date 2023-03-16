@@ -1,0 +1,151 @@
+.fooditem{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 250px;
+    height: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: inset 5px 10px 10px 10px gray;
+}
+#dishname{
+    font-size: 20px;
+    font-style:italic;
+    background-color:linear-gradient( red,orange); 
+}
+#price{
+    font-size: 18px;
+    font-weight: 600;
+}
+.foodimg img{
+    width: 220px;
+    height: 160px;
+    padding-top: 10px;
+    justify-content: center;
+    padding-left: 10px;
+}
+#foodpack{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+    text-align: center;
+    gap: 40px;
+    justify-content: space-around;
+}
+#food-name{
+    display: grid;
+    /* background-color: rgb(51, 153, 148); */
+    grid-template-columns: auto auto;
+}
+#navimg{
+    display: grid;
+    grid-template-rows: 60% 20% 20%;
+    /* width: 200px;
+    height: 250px; */
+}
+.buycart{
+    width: 100%;
+    left: 30px;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+#btncart{
+    width: 50%;
+    padding: 5px;
+    border: none;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: rgb(126, 190, 22);
+    font-weight: 500;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+#btnall{
+    width: 90px;
+    padding: 6px;
+    border-radius: 15px;
+    background-image: linear-gradient(yellow,white);
+    border: 1px solid gray;
+}
+#btnindian{
+    width: 90px;
+    padding: 6px;
+    border-radius: 15px;
+    background-image: linear-gradient(yellow,white);
+    border: 1px solid gray;
+}
+#btnchinese{
+    width: 90px;
+    padding: 6px;
+    border-radius: 15px;
+    background-image: linear-gradient(yellow,white);
+    border: 1px solid gray;
+}
+#btnwestern{
+    width: 90px;
+    padding: 6px;
+    border-radius: 15px;
+    background-image: linear-gradient(yellow,white);
+    border: 1px solid gray;
+}
+#btnnon{
+    width: 90px;
+    padding: 6px;
+    border-radius: 15px;
+    background-image: linear-gradient(yellow,white);
+    border: 1px solid gray;
+}
+#nav-search{
+    display:flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    padding-bottom: 30px;
+} 
+#top-in{
+    width: 40%;
+    padding: 6px;
+    border-radius: 25px;
+    font-size: 18px;
+} 
+#nav-search-btn {
+    padding: 5px 25px;
+    font-size: 19px;
+    border-radius: 28px;
+}
+#nav-search{
+    background: transparent;
+}
+#pagination{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    padding: 5px;
+    padding-top: 50px;
+    cursor: pointer;
+}
+#number{
+    background-color: rgb(156, 155, 148);
+    border:1px solid rgb(89, 99, 89);
+    padding: 5px 10px;
+    box-shadow: 2px 0px 5px 5px;
+    font-size: 15px;
+    font-weight: 800;
+    border-radius: 5px;
+}
+#pagination :hover{
+    background-color: blueviolet;
+}
+#pagination :active{
+    background-color: brown;
+}
